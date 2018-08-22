@@ -53,6 +53,7 @@
     <Compile Include="1 Program flow\1.1 Threads and Asynchronous Processing\01_Threads.cs" />
     <Compile Include="1 Program flow\1.1 Threads and Asynchronous Processing\02_Parallel.cs" />
     <Compile Include="1 Program flow\1.1 Threads and Asynchronous Processing\03_Async.cs" />
+    <Compile Include="1 Program flow\1.1 Threads and Asynchronous Processing\04_PLINQ.cs" />
     <Compile Include="1 Program flow\1.4 Delegates\01_Delegates.cs" />
     <Compile Include="1 Program flow\1.4 Delegates\02_LambdaExpressions.cs" />
     <Compile Include="1 Program flow\1.4 Delegates\03_Events.cs" />

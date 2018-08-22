@@ -36,10 +36,10 @@ namespace ER70_483
             #endregion
 
             #region Parallel Samples
-            List<BasicSample> delegateSamples = new List<BasicSample>() {
-                new ParallelSample1()
-            };
-            runningSamples.AddRange(delegateSamples);
+            //List<BasicSample> delegateSamples = new List<BasicSample>() {
+            //    new ParallelSample1()
+            //};
+            //runningSamples.AddRange(delegateSamples);
             #endregion
 
             #region Async Samples
@@ -47,6 +47,16 @@ namespace ER70_483
             //    new AsyncSample1()
             //};
             //runningSamples.AddRange(asyncSamples);
+            #endregion
+
+
+            #region PLINQ Samples
+            List<BasicSample> plinqSamples = new List<BasicSample>() {
+                new PLINQSample1(),
+                new PLINQSample2(),
+                new PLINQSample3()
+            };
+            runningSamples.AddRange(plinqSamples);
             #endregion
 
             #region Delegate Samples
