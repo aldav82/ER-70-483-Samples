@@ -7,8 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ER70-483", "ER70-483\ER70-4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4BDF0E4C-733B-476A-B56D-81CF63FBC5C5}"
 	ProjectSection(SolutionItems) = preProject
+		myKey.snk = myKey.snk
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ER70-483-SignedAssembly", "ER70-483-SignedAssembly\ER70-483-SignedAssembly.csproj", "{74C2A349-C361-4C47-9FD6-1B5D5CAC50D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +23,10 @@ Global
 		{019C7A6F-F75D-4234-B391-26568A4CD309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{019C7A6F-F75D-4234-B391-26568A4CD309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{019C7A6F-F75D-4234-B391-26568A4CD309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C2A349-C361-4C47-9FD6-1B5D5CAC50D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C2A349-C361-4C47-9FD6-1B5D5CAC50D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C2A349-C361-4C47-9FD6-1B5D5CAC50D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C2A349-C361-4C47-9FD6-1B5D5CAC50D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
