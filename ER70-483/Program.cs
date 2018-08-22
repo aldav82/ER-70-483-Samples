@@ -1,4 +1,5 @@
 ﻿using ER70_483._1_Program_flow._1._1_Threads_and_Asynchronous_Processing;
+using ER70_483._1_Program_flow._1._2_Manage_multithreading;
 using ER70_483._1_Program_flow._1._4_Delegates;
 using ER70_483._3_Debuging_and_Security._3._2_Encryption;
 using NLog;
@@ -49,14 +50,25 @@ namespace ER70_483
             //runningSamples.AddRange(asyncSamples);
             #endregion
 
-
             #region PLINQ Samples
-            List<BasicSample> plinqSamples = new List<BasicSample>() {
-                new PLINQSample1(),
-                new PLINQSample2(),
-                new PLINQSample3()
+            //List<BasicSample> plinqSamples = new List<BasicSample>() {
+            //    new PLINQSample1(),
+            //    new PLINQSample2(),
+            //    new PLINQSample3()
+            //};
+            //runningSamples.AddRange(plinqSamples);
+            #endregion            
+
+            #region Synchronization Samples
+            List<BasicSample> synchronizationSamples = new List<BasicSample>() {
+                new SynchronizingSample1(),
+                new SynchronizingSample2(),
+                new SynchronizingSample3(),
+                new SynchronizingSample4(),
+                new SynchronizingSample5(),
+                new SynchronizingSample6()
             };
-            runningSamples.AddRange(plinqSamples);
+            runningSamples.AddRange(synchronizationSamples);
             #endregion
 
             #region Delegate Samples
