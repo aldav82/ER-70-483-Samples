@@ -58,6 +58,7 @@
     <Compile Include="1 Program flow\1.4 Delegates\01_Delegates.cs" />
     <Compile Include="1 Program flow\1.4 Delegates\02_LambdaExpressions.cs" />
     <Compile Include="1 Program flow\1.4 Delegates\03_Events.cs" />
+    <Compile Include="2 Creating and Using Types\02_UnmanagedResources.cs" />
     <Compile Include="3 Debuging and Security\3.2 Encryption\01_SymmetricAsymmetricEncription.cs" />
     <Compile Include="3 Debuging and Security\3.2 Encryption\02_Hashing.cs" />
     <Compile Include="GlobalTypes.cs" />

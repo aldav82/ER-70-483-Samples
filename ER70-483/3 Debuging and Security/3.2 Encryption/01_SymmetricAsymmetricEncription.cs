@@ -11,14 +11,14 @@ namespace ER70_483._3_Debuging_and_Security._3._2_Encryption
 
     #region Sample 1
     /// <summary>
-    /// Initial sample, showing how to perform a symmetric encription/decription by using AES algorithm
+    /// Initial sample, showing how to perform a symmetric encryption/decryption by using AES algorithm
     /// </summary>
     [SampleName(Name = "Sample 1 - Basic symmetric encryption")]
     public class SymmetricEncriptionSample1 : BasicSample
     {
         static byte[] Encrypt(SymmetricAlgorithm aesAlg, string plainText)
         {
-            // First step is to set the encriptor's configuration by passing the key and the initialization vector (IV)
+            // First step is to set the encryptor's configuration by passing the key and the initialization vector (IV)
             ICryptoTransform encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV);
             using (MemoryStream msEncrypt = new MemoryStream())
             {

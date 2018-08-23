@@ -1,6 +1,7 @@
 ﻿using ER70_483._1_Program_flow._1._1_Threads_and_Asynchronous_Processing;
 using ER70_483._1_Program_flow._1._2_Manage_multithreading;
 using ER70_483._1_Program_flow._1._4_Delegates;
+using ER70_483._2_Creating_and_Using_Types;
 using ER70_483._3_Debuging_and_Security._3._2_Encryption;
 using NLog;
 using System;
@@ -57,18 +58,18 @@ namespace ER70_483
             //    new PLINQSample3()
             //};
             //runningSamples.AddRange(plinqSamples);
-            #endregion            
+            #endregion
 
             #region Synchronization Samples
-            List<BasicSample> synchronizationSamples = new List<BasicSample>() {
-                new SynchronizingSample1(),
-                new SynchronizingSample2(),
-                new SynchronizingSample3(),
-                new SynchronizingSample4(),
-                new SynchronizingSample5(),
-                new SynchronizingSample6()
-            };
-            runningSamples.AddRange(synchronizationSamples);
+            //List<BasicSample> synchronizationSamples = new List<BasicSample>() {
+            //    new SynchronizingSample1(),
+            //    new SynchronizingSample2(),
+            //    new SynchronizingSample3(),
+            //    new SynchronizingSample4(),
+            //    new SynchronizingSample5(),
+            //    new SynchronizingSample6()
+            //};
+            //runningSamples.AddRange(synchronizationSamples);
             #endregion
 
             #region Delegate Samples
@@ -101,6 +102,15 @@ namespace ER70_483
             //    new EventSample4()
             //};
             //runningSamples.AddRange(eventSamples);
+            #endregion
+
+            #region Unmanaged resources
+            List<BasicSample> eventSamples = new List<BasicSample>() {
+                new UnmanagedResourcesSample1(),
+                new UnmanagedResourcesSample2(),
+                new UnmanagedResourcesSample3()
+            };
+            runningSamples.AddRange(eventSamples);
             #endregion
 
             #region Encryption
